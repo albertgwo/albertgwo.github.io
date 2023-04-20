@@ -1,0 +1,178 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import './animations/fancyMenu.css';
+
+@font-face {
+  font-family: 'NewSpirit';
+  font-style: normal;
+  font-weight: 300;
+  font-display: block;
+  src: url('../fonts/NewSpirit/NewSpirit-Light.woff2') format('woff2'),
+    url('../fonts/NewSpirit/NewSpirit-Light.woff') format('woff'),
+    url('../fonts/NewSpirit/NewSpirit-Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'NewSpirit';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url('../fonts/NewSpirit/NewSpirit-Regular.woff2') format('woff2'),
+    url('../fonts/NewSpirit/NewSpirit-Regular.woff') format('woff'),
+    url('../fonts/NewSpirit/NewSpirit-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'NewSpirit';
+  font-style: normal;
+  font-weight: 500;
+  font-display: block;
+  src: url('../fonts/NewSpirit/NewSpirit-Medium.woff2') format('woff2'),
+    url('../fonts/NewSpirit/NewSpirit-Medium.woff') format('woff'),
+    url('../fonts/NewSpirit/NewSpirit-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'NewSpirit';
+  font-style: normal;
+  font-weight: 600;
+  font-display: block;
+  src: url('../fonts/NewSpirit/NewSpirit-SemiBold.woff2') format('woff2'),
+    url('../fonts/NewSpirit/NewSpirit-SemiBold.woff') format('woff'),
+    url('../fonts/NewSpirit/NewSpirit-SemiBold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'NewSpirit';
+  font-style: normal;
+  font-weight: 700;
+  font-display: block;
+  src: url('../fonts/NewSpirit/NewSpirit-Bold.woff2') format('woff2'),
+    url('../fonts/NewSpirit/NewSpirit-Bold.woff') format('woff'),
+    url('../fonts/NewSpirit/NewSpirit-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'NewSpirit';
+  font-style: normal;
+  font-weight: 800;
+  font-display: block;
+  src: url('../fonts/NewSpirit/NewSpirit-Heavy.woff2') format('woff2'),
+    url('../fonts/NewSpirit/NewSpirit-Heavy.woff') format('woff'),
+    url('../fonts/NewSpirit/NewSpirit-Heavy.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'NewSpiritCondensed';
+  font-style: normal;
+  font-weight: 300;
+  font-display: block;
+  src: url('../fonts/NewSpiritCondensed/NewSpiritCondensed-Light.woff2') format('woff2'),
+    url('../fonts/NewSpiritCondensed/NewSpiritCondensed-Light.woff') format('woff'),
+    url('../fonts/NewSpiritCondensed/NewSpiritCondensed-Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'NewSpiritCondensed';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url('../fonts/NewSpiritCondensed/NewSpiritCondensed-Regular.woff2') format('woff2'),
+    url('../fonts/NewSpiritCondensed/NewSpiritCondensed-Regular.woff') format('woff'),
+    url('../fonts/NewSpiritCondensed/NewSpiritCondensed-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'NewSpiritCondensed';
+  font-style: normal;
+  font-weight: 500;
+  font-display: block;
+  src: url('../fonts/NewSpiritCondensed/NewSpiritCondensed-Medium.woff2') format('woff2'),
+    url('../fonts/NewSpiritCondensed/NewSpiritCondensed-Medium.woff') format('woff'),
+    url('../fonts/NewSpiritCondensed/NewSpiritCondensed-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'NewSpiritCondensed';
+  font-style: normal;
+  font-weight: 600;
+  font-display: block;
+  src: url('../fonts/NewSpiritCondensed/NewSpiritCondensed-SemiBold.woff2') format('woff2'),
+    url('../fonts/NewSpiritCondensed/NewSpiritCondensed-SemiBold.woff') format('woff'),
+    url('../fonts/NewSpiritCondensed/NewSpiritCondensed-SemiBold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'NewSpiritCondensed';
+  font-style: normal;
+  font-weight: 700;
+  font-display: block;
+  src: url('../fonts/NewSpiritCondensed/NewSpiritCondensed-Bold.woff2') format('woff2'),
+    url('../fonts/NewSpiritCondensed/NewSpiritCondensed-Bold.woff') format('woff'),
+    url('../fonts/NewSpiritCondensed/NewSpiritCondensed-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Retail';
+  font-style: normal;
+  font-weight: 100;
+  font-display: block;
+  src: url('../fonts/Retail/Retail-Hairline.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Retail';
+  font-style: normal;
+  font-weight: 200;
+  font-display: block;
+  src: url('../fonts/Retail/Retail-Thin.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Retail';
+  font-style: normal;
+  font-weight: 300;
+  font-display: block;
+  src: url('../fonts/Retail/Retail-Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Retail';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url('../fonts/Retail/Retail-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Retail';
+  font-style: normal;
+  font-weight: 500;
+  font-display: block;
+  src: url('../fonts/Retail/Retail-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Retail';
+  font-style: normal;
+  font-weight: 600;
+  font-display: block;
+  src: url('../fonts/Retail/Retail-SemiBold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Retail';
+  font-style: normal;
+  font-weight: 700;
+  font-display: block;
+  src: url('../fonts/Retail/Retail-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Retail';
+  font-style: normal;
+  font-weight: 800;
+  font-display: block;
+  src: url('../fonts/Retail/Retail-Black.otf') format('opentype');
+}
