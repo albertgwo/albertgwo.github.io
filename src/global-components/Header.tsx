@@ -4,7 +4,7 @@ import Title from './Title';
 import PortfolioMenu from '../components/PortfolioMenu';
 import MainMenu from '../components/MainMenu';
 import { fadeConfig } from '../styles/animations/animations';
-import { animated, useTransition } from 'react-spring';
+import { animated, useTransition } from '@react-spring/web';
 
 interface HeaderProps {
   className?: string;

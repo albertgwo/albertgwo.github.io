@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { twMerge } from 'tailwind-merge';
-import { useSpring, animated, useSpringRef, useChain } from 'react-spring';
+import { useSpring, animated, useSpringRef, useChain } from '@react-spring/web';
 
 const Title: React.FC<{ className?: string }> = ({ className }) => {
   const [middleTranslateY, setMiddleTranslateY] = useState(0);
